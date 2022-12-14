@@ -1,0 +1,21 @@
+.todo-list button {
+  cursor: pointer;
+  background-color: rgb(94, 84, 84);
+  color: rgb(64, 205, 205);
+  font-size: 18px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.todo-list button:hover {
+  background-color: rgb(152, 134, 134);
+  box-shadow: 5px 4px 16px 4px rgba(152, 134, 134, 0.5);
+}
+.todos {
+  list-style: " -  ";
+  font-size: 16px;
+  color: rgb(81, 14, 144);
+  line-height: 30px;
+}
+.todo-list {
+  width: 200px;
+}
